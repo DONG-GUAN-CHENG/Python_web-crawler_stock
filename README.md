@@ -3,12 +3,12 @@
 本專案以Yahoo奇摩股市為例，開發Python網頁爬蟲取得關注的股票當日行情，並且提供了四個方法(Method)， 包含：
 
 * scrape() 
-  * save()
+* save()
 * export()
 * gsheet()
 * daily()
 
-其中，scrape()方法(Method)為爬取關注的股票當日行情資料，而save()方法(Method)提供存入MySQL資料庫的功能，可以搭配[Python爬蟲教學]輕鬆學會Python網頁爬蟲與MySQL資料庫的整合方式部落格文章來進行學習。
+其中，'''scrape()'''方法(Method)為爬取關注的股票當日行情資料，而save()方法(Method)提供存入MySQL資料庫的功能，可以搭配[Python爬蟲教學]輕鬆學會Python網頁爬蟲與MySQL資料庫的整合方式部落格文章來進行學習。
 
 另外，export()方法(Method)整合openpyxl套件，提供將Python網頁爬蟲所取得的股票當日行情資料，匯出成Excel檔案，並且在其中的漲跌欄位，客製化顯示儲存格的文字顏色，可以搭配[Python爬蟲教學]活用openpyxl套件將爬取的資料寫入Excel檔案部落格文章來進行學習。
 
