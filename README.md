@@ -1,5 +1,5 @@
 # Python_web-crawler_stock
-##專案介紹
+## 專案介紹
 本專案以Yahoo奇摩股市為例，開發Python網頁爬蟲取得關注的股票當日行情，並且提供了四個方法(Method)， 包含：
 
 ·scrape()
